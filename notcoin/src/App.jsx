@@ -1,13 +1,8 @@
-import "./App.css";
+import "./index.css";
+import { Game } from "./components/Game";
 
-function App() {
-  return (
-    <>
-      <div>
-        <h1 className="text-3xl text-red-600">Notcoin-clone</h1>
-      </div>
-    </>
-  );
-}
+const App = () => {
+  return <Game />;
+};
 
 export default App;
